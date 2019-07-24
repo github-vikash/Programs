@@ -12,4 +12,4 @@ function palindrome_string(str){
     }
 }
 
-palindrome("testset")
+palindrome_string("testset")
