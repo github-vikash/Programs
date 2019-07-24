@@ -26,7 +26,7 @@ function charatercount1(str,letter){
 
 // find the no. of each charactor  in string 
 
-function cou(str){
+function count_character(str){
     let data = {};
     for(let i =0; i<str.length; i++){
         console.log(str[i]);
@@ -40,6 +40,5 @@ function cou(str){
     console.log(data);
 
 }
-cou("vikash gcgfcch");
+count_character("vikash kumar singh");
 
-//charatercount("vikasha singh a vikaaa",'a');
