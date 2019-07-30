@@ -10,6 +10,10 @@ function charatercount(str,letter){
     }
     console.log(letter_Count);
 }
+charatercount('vikaasshhkkuummarr','r')
+//output 2
+
+
 //Find No. of charactor in given string
 
 function charatercount1(str,letter){
@@ -29,7 +33,6 @@ function charatercount1(str,letter){
 function count_character(str){
     let data = {};
     for(let i =0; i<str.length; i++){
-        console.log(str[i]);
         if(data.hasOwnProperty(str[i])){
             data[str[i]] +=1;
         }else{
