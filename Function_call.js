@@ -11,8 +11,8 @@ var person = {
     firstName:"san",
     lastName: "Tom"
   }
-  let dd = person.fullName.call(person2);  // Will return "John Doe"
+  let result = person.fullName.call(person1);  // Will return "vikash kumar"
 
-  console.log(dd)
+  console.log(result)
 
   
